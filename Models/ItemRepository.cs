@@ -14,6 +14,7 @@ namespace Swaipy.Models
             Add(new Item { Id = Guid.NewGuid().ToString(), Text = "Starbucks", Description = "4 points." });
             Add(new Item { Id = Guid.NewGuid().ToString(), Text = "Thai Jasmin", Description = "2 points." });
             Add(new Item { Id = Guid.NewGuid().ToString(), Text = "Burger King", Description = "1 point." });
+			Add(new Item { Id = Guid.NewGuid().ToString(), Text = "Pizza Hut", Description = "1 point." });
         }
 
         public Item Get(string id)
